@@ -1,0 +1,342 @@
+
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/ea9cae87cb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="signin.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title> Indian Official News Login in</title>
+
+<style>
+   nav{
+  background:white;
+  height: 60px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 60px;
+  padding: 20px 100px;
+  font-weight: bold;
+  width:0px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+  margin-top:0px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+  list-style: none;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+a:hover{
+  font-size: 1.1em;
+}
+a.active{
+  background: #151718;
+  transition: .5s;
+  color:white;
+}
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+} 
+.box{
+    box-shadow: 25px 25px 28px #888888;
+    margin: 0px;
+}
+
+
+input[type=text],input[type=password]{
+    
+
+    width :25%;
+    padding:12px 20px;
+    margin: 10px ;
+    display: inline-blocks;
+    border: 1px solid rgb(10, 10, 10);
+
+}
+
+
+
+.imgcontainer{
+
+text-align:center;
+margin:12px 0 6px 0;
+}
+
+
+ .container{
+     padding: 16px;
+    
+ }
+
+
+h4{
+    display:flex;
+    flex-direction:row;
+}
+
+h4:before,
+h4:after{
+    content : " ";
+    flex: 1 1;
+    border-bottom:2px solid rgb(161, 155, 155);
+    margin:10px;
+
+}
+
+
+
+.left{
+    width: 55%;
+    height:100%;
+    background-color: white;
+    float: left;
+    padding:0px 0px 0px 0px !important;
+margin:0px !important;
+margin-bottom:0% !important;
+}
+
+@media (min-width:629px){
+.right{
+
+    width: 45%;
+    float: right;
+
+}
+}
+
+
+.mySlides {display:none;
+    
+    
+    
+    
+    }
+    
+    .backimg{
+    background-image:url(back123.png);
+     background-repeat:no-repeat;
+     width:100%;
+     height:100%;
+    margin-bottom:0%;
+}
+
+    
+
+    @media (max-width:480px){
+        .right{
+        
+            width: 45%;
+            float: right;
+            display:none;
+        }
+        .left{
+            width: 100%;
+            float: left;
+            padding-top:0px;
+             display:block;
+        }
+        
+        .backimg{
+
+          width:100%;
+          height:100%;
+        
+          
+    background-image:url(https://media.gettyimages.com/photos/india-abstract-flag-picture-id473473522?b=1&k=6&m=473473522&s=170667a&w=0&h=vpXMXSTTeL_PYUQKnrFz82EbcFeBFpyNC4bbhfFSkSc=);
+     background-repeat:no-repeat;
+    
+    margin-bottom:0%;
+    background-size:100% 100%;
+}
+
+
+
+
+        
+        }
+        
+       
+
+</style>
+
+
+<body style="font-family: Georgia, Times New Roman, Times, 'serif'; box-shadow: 10px 15px 20px #888888;" >
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="Indian Official News (2).png" height="60px" width="180px"></label>
+        <ul>
+          <div id="logo">
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+          <li><a class="active" href="signin.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+         
+          <li><a href="contactus.html"><i class="fas fa-phone-square-alt"></i>Contact</a></li>
+         
+        </ul>
+      </nav>
+      <section></section>
+<div class="box">
+<div class="left">
+   
+
+ <div class="backimg" style="background-size:100% 99%;" >
+       
+
+<h1 style="text-align: center;padding: 45px 15px 15px 15px;color: rgb(19, 19, 20);
+margin-top:0% !important;"> Login</h1>
+
+
+<div class="container" style="text-align:center;padding: 10px;">
+<label for="uname"><b>Username</b> </label>
+<input style="border-radius: 15px;width: 6cm;" type="text" placeholder="Enter Email/number" name="uname" required>
+<br>
+<label for="psw"><b>Password</b> </label>
+<input  style="border-radius: 15px;width: 6cm;" type="password" placeholder="Enter password "  required>
+</div>
+<label style="text-align: left;padding-left:10px;" > <input type="checkbox" checked="checked" name="remember" >Remember me                          
+<div style="text-align:right;padding-right:15px;"  > <a href="#" >Forgot Password</a></div></label>
+
+
+
+<br>
+<div style="text-align: center;">
+<button type="submit"  onclick="myFunction()"  style="border-radius: 15px;background-color: blue;color: white;padding: 14 20;margin:8px 0;border: none;width: 200px;height: 50px ;">
+    <b>Login</b> </button>
+
+
+    <script>
+        function myFunction() {
+          alert("Logged In Successfuly");
+        }
+        </script>
+
+
+    </div>
+<br>
+<h4>  or sign in with </h4>
+<div class="container" style="text-align: center; ">
+    <i style="padding: 10px;" class="fa fa-facebook-square fa-lg" ></i>
+    <i style="padding: 10px;" class="fa fa-google fa-lg" ></i>
+    <i style="padding: 10px;" class="fa fa-instagram fa-lg"></i>
+<h5 style="text-align: center;color: rgb(160, 159, 159);margin-bottom:0% !important;">Don't Have an Account? <a href="signup.html" style="color: red;">Sign Up Now >> </a></h5>
+
+</div>
+
+</div>
+</div>
+<div class="right">
+<div class="centered">
+
+
+
+<img class ="mySlides"  width="100%" height="99%" src="background2.jpeg">
+</html>
+<img  class ="mySlides"  width="100%" height="99%" src="https://images.unsplash.com/photo-1495020689067-958852a7765e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5ld3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" >
+<img class ="mySlides"  width="100%" height="100%" src="https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmV3c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60">
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); 
+}
+
+</script>
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>

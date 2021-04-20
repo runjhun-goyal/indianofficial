@@ -1,0 +1,292 @@
+<html>
+<title> Contact Us</title>
+<script src="https://kit.fontawesome.com/ea9cae87cb.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  nav{
+  background:white;
+  height: 60px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 60px;
+  padding: 20px 100px;
+  font-weight: bold;
+  width:0px;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+  margin-top:0px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+  list-style: none;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+a:hover{
+  font-size: 1.1em;
+}
+a.active{
+  background: #151718;
+  transition: .5s;
+  color:white;
+}
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+#container{
+
+
+height:75%;
+width:100%;
+
+
+
+}
+
+.left{
+    width: 67%;
+    float: left;
+}
+.right{
+
+    width: 33%;
+    float: right;
+
+}
+
+
+
+body{
+    background: rgb(241, 240, 240);
+}
+
+
+.leftpane {padding-top: 50px;
+    width: 25%;
+    height: 100%;
+    float: left;
+  
+}
+
+.middlepane {padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.rightpane {padding-top: 50px;
+  width: 25%;
+  height: 100%;
+ 
+  float: right;
+
+}
+.footerimg{
+    background-color:black;
+    text-align:center;
+    background-repeat:no-repeat;
+    height:30%;
+    width:100%;
+    color:white;
+}
+.mySlides {
+    display: none;}
+
+</style>
+<body style="font-family: Georgia, 'Times New Roman', Times, serif;">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="Indian Official News (2).png" height="60px" width="180px"></label>
+        <ul>
+          <div id="logo">
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="signin.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+         
+          <li><a class="active" href="contactus.html"><i class="fas fa-phone-square-alt"></i>Contact</a></li>
+         
+        </ul>
+      </nav>
+      <section></section>
+<br>
+<div>
+   
+<img  class ="mySlides"  src="https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" style="width:100%;height:40%;opacity:0.8">
+
+<img  class ="mySlides"  src="https://images.unsplash.com/photo-1512626120412-faf41adb4874?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" style="width:100%;height:40%;opacity:0.8">
+
+<img  class ="mySlides"  src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" style="width:100%;height:40%;opacity:0.8">
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+</div>
+
+<br>
+<section id="container">
+<div class="left" >
+    
+<h2>Get in touch</h2>
+<p>Please fill out the quick form and we will be in touch with lightening speed </p><br>
+<input style="width: 12cm;height:1cm;padding-right :50px ;" type="text" placeholder="Name" name="uname" required><br><br>
+<input style="width: 12cm;height:1cm;padding-right :50px ;" type="text" placeholder="Your Email address" name="uname" required><br><br>
+<input style="width: 12cm;height:2cm;padding-right :50px ;" type="text" placeholder="Message" name="uname" required><br><br>
+
+<button       onclick="myFunction()"            type="button"  style="float: left;width:3cm;height:1cm;background-color: blue;color:white;"> Submit</button>
+    
+
+
+
+<script>
+function myFunction() {
+  alert("Query Submitted Successfuly");
+}
+</script>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="right" >
+        
+
+        <h3>Connect with us:</h3><br>
+<p>For support or any questions:<br><br>
+    email us at  <a href="#">indianofficialnews@gmail.com</a><br><br>
+    Tag us on instagram : <br><a href="https://www.instagram.com/indianofficialnews/" style="color: black;"> <i style="padding: 10px;" class="fa fa-instagram fa-lg"></i> @indianofficialnews </a>
+
+</p>
+
+</div>
+
+
+</section>
+
+
+<div class="footerimg"> 
+
+<div class="leftpane">
+Contact Us:<br>
+Email: indianofficialnews@gmail.com<br>
+<p> For Live News update Download our App from </p>
+<a href="https://drive.google.com/file/d/1I2z-J-Q19GAVixnfp3eddUkW-xFxLXZ4/view?usp=sharing" download>
+    <i class="fab fa-google-play"></i>
+  </a>
+
+</div>
+
+<div class="middlepane">
+Follow us on:<br>
+ <i style="padding: 10px;" class="fa fa-facebook-square fa-lg" ></i>
+        <i style="padding: 15px;" class="fa fa-google fa-lg" ></i>
+        <a href="https://www.instagram.com/indianofficialnews/" style="color: white;"> <i style="padding: 10px;" class="fa fa-instagram fa-lg"></i></a>
+
+</div>
+
+<div class="rightpane">
+Subscribe to our News Letter
+
+<input style="width:4cm;height:1cm;padding-right :50px ;" type="text" placeholder="Email" name="uname"><br>
+<button  style="background-color:red;color:white;"  >Submit</button>    
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
